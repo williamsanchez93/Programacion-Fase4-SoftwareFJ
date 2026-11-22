@@ -1,0 +1,29 @@
+[2026-11-21 20:28:54] [INFO] [SoftwareFJ]: === INICIANDO SIMULACION COMPLETA ===
+[2026-11-21 20:28:54] [INFO] [SoftwareFJ]: Cliente registrado exitosamente: William Sanchez (Doc: 1012345678)
+[2026-11-21 20:28:54] [INFO] [SoftwareFJ]: Servicio de Sala registrado: Auditorio Central Fj (Aforo: 120)
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Reserva creada [RES-101] | Cliente: William Sanchez | Servicio: Auditorio Central Fj
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Iniciando confirmación de reserva [RES-101]...
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Reserva [RES-101] confirmada con éxito.
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Iniciando procesamiento de pago de $540,500.00 para la reserva [RES-101]...
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Pago procesado para reserva [RES-101]. Total: $540,500.00
+[2026-11-21 20:28:55] [ERROR] [SoftwareFJ]: [ERR_CLIENTE_INVALIDO] Cédula inválida '10123ABC'. Debe ser numérica y tener entre 6 y 12 dígitos.
+[2026-11-21 20:28:55] [ERROR] [SoftwareFJ]: [ERR_CLIENTE_INVALIDO] Formato de correo electrónico inválido 'maria_sin_arroba'.
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Cliente registrado exitosamente: Maria Rodriguez (Doc: 987654321)
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Servicio de Equipo registrado: Equipo Portatil
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Servicio de Sala registrado: Sala Excesiva (Aforo: 50)
+[2026-11-21 20:28:55] [ERROR] [SoftwareFJ]: [ERR_SERVICIO_NO_DISPONIBLE] Duración de sala inválida '30.0'. Debe ser entre 1 y 24 horas.
+[2026-11-21 20:28:55] [ERROR] [SoftwareFJ]: [ERR_SERVICIO_NO_DISPONIBLE] Nivel de consultor inválido 'BASIC'. Permitidos: ['JUNIOR', 'SENIOR', 'MASTER']
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Reserva creada [RES-102] | Cliente: Maria Rodriguez | Servicio: Equipo Portatil
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Evaluando solicitud de cancelación para reserva [RES-102]...
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Reserva [RES-102] cancelada. Motivo: Cliente solicita reprogramacion
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Reserva creada [RES-103] | Cliente: Maria Rodriguez | Servicio: Equipo Portatil
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Iniciando procesamiento de pago de $600,000.00 para la reserva [RES-103]...
+[2026-11-21 20:28:55] [ERROR] [SoftwareFJ]: Fallo en procesamiento de pago para reserva [RES-103]: [ERR_RESERVA_INVALIDA] Imposible procesar pago. La reserva [RES-103] debe estar CONFIRMADA (Estado actual: 'PENDIENTE').
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Cliente registrado exitosamente: Carlos Perez (Doc: 1045678910)
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Servicio de Asesoría registrado: Asesoria Avanzada (Nivel: MASTER)
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Reserva creada [RES-104] | Cliente: Carlos Perez | Servicio: Asesoria Avanzada
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Iniciando confirmación de reserva [RES-104]...
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Reserva [RES-104] confirmada con éxito.
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Iniciando procesamiento de pago de $1,320,000.00 para la reserva [RES-104]...
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: Pago procesado para reserva [RES-104]. Total: $1,320,000.00
+[2026-11-21 20:28:55] [INFO] [SoftwareFJ]: === SIMULACION FINALIZADA CON EXITO ===
