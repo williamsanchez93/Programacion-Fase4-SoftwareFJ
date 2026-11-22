@@ -41,7 +41,3 @@ El proyecto se encuentra modularizado en 5 archivos principales interconectados 
 
 
 
----
-
-## 📜 Licencia y Marco Académico
-Desarrollado para la evaluación de la Fase 4 del curso de Programación (213023) — UNAD 2026.
