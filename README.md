@@ -39,23 +39,7 @@ El proyecto se encuentra modularizado en 5 archivos principales interconectados 
 5. **`modulo_main.py` (Módulo 5 — Script de 10 Simulaciones)**:
    - Ejecución secuencial de **10 operaciones completas** alternando casos de éxito con intentos inválidos que fuerzan la captura de excepciones, demostrando que la aplicación nunca colapsa.
 
----
 
-## 💻 Instrucciones de Ejecución
-
-1. **Clonar el repositorio**:
-   ```bash
-   git clone https://github.com/williamsanchez93/Programacion-Fase4-SoftwareFJ
-   cd Programacion-Fase4-SoftwareFJ
-   ```
-
-2. **Ejecutar la simulación principal**:
-   ```bash
-   python modulo_main.py
-   ```
-
-3. **Verificar el archivo de log**:
-   Al ejecutar el programa, se generará o actualizará automáticamente el archivo `software_fj.log` en el directorio raíz.
 
 ---
 
